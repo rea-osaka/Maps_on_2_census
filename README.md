@@ -12,6 +12,6 @@ e-stat(政府統計の総合窓口)から、「境界データダウンロード
 
 #### ※ggplot2についての注意
 sf パッケージとggplot2パッケージ(geom_sf)により、shapeファイルを描画しますが、ggplot2はver.3.0.0以降である必要があります（本件ではtidyverseパッケージを使っています）。これはRがver3.5以降でないとインストールできない可能性があります(私のパソコンでは）。
-ggplot2がver3.0.0以降でない場合は、devtoolsパッケージをインストールし、devtools::install_github("tidyverse/ggplot2 で開発版ggplot2をインストールする必要があります(ためしていせんが、以前は可能でした)。
+ggplot2がver3.0.0以降でない場合は、devtoolsパッケージをインストールし、devtools::install_github("tidyverse/ggplot2") で開発版ggplot2をインストールする必要があります(ためしていせんが、以前は可能でした)。
 ggplot2のver3.0.0は日本語が表示できますが、それ以前のgeom_sfは日本語が表示できませんので、このプログラムも日本語を地図に表示しないようにしています。
 
