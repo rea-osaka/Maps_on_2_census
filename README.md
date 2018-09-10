@@ -1,6 +1,6 @@
 # kokuseichosa_jinko_setai_plot.R
 H22とH27国勢調査による人口・世帯数の増減地図（町丁目）
-
+ サンプルは下記（東大阪市の人口増減）
 ![output_5_1](images/Rplot.jpeg)
 
 ## データの入手方法
